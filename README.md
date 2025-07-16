@@ -83,7 +83,7 @@ LoadButton.MouseButton1Click:Connect(function()
         loadstring(TextBox.Text)()
     end)
     if not success then
-        warn("Error (Reson script): " .. err)
+        warn("Error (Loadistring and normal scripts only!!!): " .. err)
     end
 end)
 
